@@ -7,13 +7,12 @@ public class Lab1 {
         System.out.println(text);
     }
 
-/* 4th task */
-
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
         printText("Enter the number of month: ");
+/* thought byte type would be better for this variable even though if you try a number > 127 the program'll crush*/
         byte num = in.nextByte();
+
 
         if ((num > 0) && (num < 13)) {
             switch (num) {
@@ -39,13 +38,11 @@ public class Lab1 {
                     break;
 
             }
-        } 
-        else {
+        } else {
             printText("Number must be from 1 to 12");
         }
 
-
-/* 1st task */
+/* 1st task*/
         printText("Now enter 4 numbers to compare");
 
         int a = in.nextInt();
@@ -71,8 +68,13 @@ public class Lab1 {
             if (min > d) {
                 min = d;
             }
-
         }
+        else if (min > d)
+        {
+            min = d;
+        }
+
+
         System.out.printf("Min is %d \n", min);
     }
 
