@@ -51,13 +51,13 @@ public class Source {
         show(obj2);
         composition(obj1, obj2);
         subtraction(obj1, obj2);
-        multiple(obj1, obj2);
+        multiply(obj1, obj2);
         division(obj1, obj2);
 
         System.out.println("Second variant:");
         obj1.composition(obj2);
         obj1.subtraction(obj2);
-        obj1.multiple(obj2);
+        obj1.multiply(obj2);
         obj1.division(obj2);
     }
 }

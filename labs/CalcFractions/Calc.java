@@ -81,7 +81,7 @@ public class Calc {
         showReduction(a,new Calc(final1, nok));
     }
   
-    public static void multiple(Calc num1, Calc num2) {
+    public static void multiply(Calc num1, Calc num2) {
         String a; int final1, final2;
 
         final1 = num1.numerator * num2.numerator;
@@ -132,7 +132,7 @@ public class Calc {
         showReduction(a,new Calc(final1, nok));
     }
 
-    public void multiple(Calc num2) {
+    public void multiply(Calc num2) {
         String a; int final1, final2;
 
         final1 = this.numerator * num2.numerator;
