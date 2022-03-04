@@ -2,7 +2,7 @@ package calculator
 import java.util.Scanner;
 import static calculator.Calc.*;
 
-public class Source 
+public class Lab8 
 {
     public static void main(String[] args) throws Exception 
     {
